@@ -1,6 +1,12 @@
-# CTCTADUserBase
+# CTCT ADUser Base
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+
+# Base AD_User Infrastructure
+
+This project is the basis for providing login for AD Users with Azure AD. 
+Tutorial for building this bas login application can be found at https://learn.microsoft.com/en-us/azure/active-directory/develop/tutorial-v2-angular-auth-code
+Some modifications have been made to the app in the above tutorial. Namely, the app onInit calls the login() mnethod if there is not a user logged in. 
 
 ## Development server
 

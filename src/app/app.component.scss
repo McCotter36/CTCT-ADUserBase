@@ -1,0 +1,36 @@
+// @import '../styles.scss';
+$grey-ctct: #383838 !default;
+$orange-ctct: #ED8F23 !default;
+
+.banner{
+    width: 100vw;
+    background-color: $grey-ctct;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.logo{
+    margin-left: 10px;
+}
+.title {
+    color: white;
+    font-weight: bolder;
+    margin: auto;
+}
+.btn {
+    height: 40px;
+    width: 100px;
+    background-color: $orange-ctct;
+    color: white;
+    border-radius: 2px;
+    margin-right: 10px;
+    border-color: white;
+}
+.logout{
+    font-size: large;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
